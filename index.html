@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Jeu du Pendu</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="asset/css/bootstrap.css">
+		<link rel="stylesheet" href="asset/css/style.css">
+		<link rel=Stylesheet type="text/css" href=stylePendu.css>
+		<title>Jeu de pendu en Javascipt</title>	
+	</head>
+
+	
+
+<body>
+
+
+	<div id="page" class="container">
+		<div class="row">
+			<div class="col-6">
+		
+				<img name="pendu" class="pendu" src="asset/image/pendu_0.jpg">
+			</div>
+			<div class="col-6">
+				
+				<h1>Jeu de pendu</h1>
+
+				<h2>Entre une lettre grace au clavier ci dessous </h2>
+				
+				<table id="clavier">
+				<tr>
+				<td class="lettreClavier" onclick="proposer(this);" >A</td>
+				<td class="lettreClavier" onclick="proposer(this);" >B</td>
+				<td class="lettreClavier" onclick="proposer(this);" >C</td>
+				<td class="lettreClavier" onclick="proposer(this);" >D</td>
+				<td class="lettreClavier" onclick="proposer(this);" >E</td>
+				<td class="lettreClavier" onclick="proposer(this);" >F</td>
+				<td class="lettreClavier" onclick="proposer(this);" >G</td>
+				<td class="lettreClavier" onclick="proposer(this);" >H</td>
+				<td class="lettreClavier" onclick="proposer(this);" >I</td>
+				<td class="lettreClavier" onclick="proposer(this);" >J</td>
+				<td class="lettreClavier" onclick="proposer(this);" >K</td>
+				<td class="lettreClavier" onclick="proposer(this);" >L</td>
+				<td class="lettreClavier" onclick="proposer(this);" >M</td>
+				
+				</tr>
+				<tr>
+				
+				<td class="lettreClavier" onclick="proposer(this);" >N</td>
+				<td class="lettreClavier" onclick="proposer(this);" >O</td>
+				<td class="lettreClavier" onclick="proposer(this);" >P</td>
+				<td class="lettreClavier" onclick="proposer(this);" >Q</td>
+				<td class="lettreClavier" onclick="proposer(this);" >R</td>
+				<td class="lettreClavier" onclick="proposer(this);" >S</td>
+				<td class="lettreClavier" onclick="proposer(this);" >T</td>
+				<td class="lettreClavier" onclick="proposer(this);" >U</td>
+				<td class="lettreClavier" onclick="proposer(this);" >V</td>
+				<td class="lettreClavier" onclick="proposer(this);" >W</td>
+				<td class="lettreClavier" onclick="proposer(this);" >X</td>
+				<td class="lettreClavier" onclick="proposer(this);" >Y</td>
+				<td class="lettreClavier" onclick="proposer(this);" >Z</td>
+				</tr>
+				<tr>
+				
+				
+				</tr>
+				</table>
+				<br>
+				<a class="lien" href="javascript:location.reload();">Nouvelle partie</a>
+					
+				<table id="mot">
+					<tr id = "motSecret">
+						
+					</tr>
+				</table>
+		
+		
+		
+			</div>
+		</div>
+	</div>
+	<script src="./asset/js/jquery-3.4.1.min.js"></script>
+	<script src="./asset/js/mots.js"></script>
+	<script src="./asset/js/scripts.js" defer async></script>
+</body>
+</html>
