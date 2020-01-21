@@ -2,13 +2,13 @@
 				var motSecret;
 				
 				var now=new Date();			// Date d'aujourd'hui
-				var tableauMot= [];	// Le tableau qui contient les lettres du mot � trouver
+				var tableauMot= [];	// Le tableau qui contient les lettres du mot à trouver
 						// Le tableau qui contient tous les mots possibles
 				
-				var tailleMot;				// Le nombre de lettres du mot � trouver
-				var coupsManques=0;			// Le nombre de lettres fausses essay�es
-				var lettresTrouvees=0;		// Le nombre de lettres trouv�es
-				var fini=false;				// true si le jeu est termin�
+				var tailleMot;				// Le nombre de lettres du mot a trouver
+				var coupsManques=0;			// Le nombre de lettres fausses essaya es
+				var lettresTrouvees=0;		// Le nombre de lettres trouvées
+				var fini=false;				// true si le jeu est terminé
 				
 			
 				// On prend un mot au hasard en fonction de la seconde en cours
