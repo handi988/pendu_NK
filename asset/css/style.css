@@ -1,12 +1,13 @@
 
 #page {
-	background-color:blue;
-	border:1px solid black;
+	background-color:lightgrey;
+	/* border:1px solid black; */
+	border-radius: 20px;
 	text-align:left;
-	width:50%;
+	width:60%;
 	padding:30px;
 	height:450px;
-	color :white
+	color :black
 }
 
 h1 {
@@ -31,7 +32,7 @@ h2 {
 
 #mot td {
 	padding:10px;
-	background-color:#1ee193;
+	background-color:white;
 	border:2px inset black;
 	width:30px;
 	height:30px;
@@ -61,7 +62,7 @@ h2 {
 }
 
 a.lien{
-	color:white;
+	color:black;
 	text-decoration:none;
 	font-size:20px;
 }

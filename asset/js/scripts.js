@@ -28,7 +28,7 @@
 					
 					// On récupere la lettre du clavier et on met la touche en lightgreen (pour signaler qu'elle est cliqu�e)
 					var lettre=element.innerHTML;
-					changeCouleur(element,"lightGreen");
+					changeCouleur(element,"lightGrey");
 					
 					// On met la variable trouve false;
 					var trouve=false;
